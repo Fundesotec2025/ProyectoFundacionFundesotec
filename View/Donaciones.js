@@ -1,10 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector(".formDonaciones");
-  ocultarQR();
 
-  const btnCodigoQR = document.getElementById('btnQr');
-
-  btnCodigoQR.addEventListener('click', VerQR);
 
   form.addEventListener("submit", function (e) {
     e.preventDefault(); // Evita el envío tradicional del formulario
@@ -84,10 +80,3 @@ function guardarRegistroDonaciones() {
   });
 }
 
-
-function ocultarQR() {
-  $('#CodigoQR').hide();
-}
-function VerQR() {
-  $('#CodigoQR').toggle(); // Alterna entre mostrar y ocultar
-}

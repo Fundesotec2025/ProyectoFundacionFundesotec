@@ -93,11 +93,16 @@
     font-size: 22px;
 }
 
-.ContebedorVideo iframe {
-    width: 600px;
-    height: 400px;
+.ContebedorVideo img {
+    width: 500px;
+    height: 500px;
     border-radius: 35px;
 }
+.ContebedorVideo img {
+    display: block;
+    margin: 0 auto;
+}
+
 
 /* ----------------------------------------------estilos de los proyectos--------------------------------- */
 /* tiendas solidarias */
@@ -238,7 +243,7 @@ label {
 }
 
 #CodigoQR img {
-    max-width: 150px; /* Ajusta el tamaño del código QR */
+    max-width: 490px; /* Ajusta el tamaño del código QR */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

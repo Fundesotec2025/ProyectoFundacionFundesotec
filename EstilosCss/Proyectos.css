@@ -161,6 +161,7 @@
 #btnestadosFinancieros,
 #btnNotasestadosFinancieros,
 #btnPlanOperativo,
+#btnPlanEstrategico,
 #btnAuditorIndependiente,
 #btnNombramientoDirector,
 #btnEstatutoFundacion,
@@ -229,7 +230,8 @@
     #btnCodigoEtica,
     #btnManuales,
     #btnReglamentoInterno #btnRuc,
-    #btnSUIOS {
+    #btnSUIOS,
+    #btnPlanEstrategico {
 
         width: 500px;
     }

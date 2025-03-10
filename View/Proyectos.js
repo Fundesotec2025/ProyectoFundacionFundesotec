@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function () {
     //ocultamos  informeAnual
     ocultarinformeAnual();
     ocultarEstadosFinancieros();
+    ocultarPlanEstrategico();
+
     ocultarplanOperativo();
     ocultarAuditorIndependiente();
     ocultarNombramientoDirector();
@@ -20,6 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const btnInformeAnual = document.getElementById('btnInformeAnual');
     const btnestadosFinancieros = document.getElementById('btnestadosFinancieros');
     const btnPlanOperativo = document.getElementById('btnPlanOperativo');
+    const btnPlanEstrategico = document.getElementById('btnPlanEstrategico');
     const btnAuditorIndependiente = document.getElementById('btnAuditorIndependiente');
     const btnNombramientoDirector = document.getElementById('btnNombramientoDirector');
     const btnEstatutoFundacion = document.getElementById('btnEstatutoFundacion');
@@ -38,6 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
     btnInformeAnual.addEventListener('click', verinformeAnual);
     btnestadosFinancieros.addEventListener('click', verEstadosFinancieros);
     btnPlanOperativo.addEventListener('click', verplanOperativo);
+    btnPlanEstrategico.addEventListener('click', verPlanEstrategico);
     btnAuditorIndependiente.addEventListener('click', verAuditorIndependiente);
     btnNombramientoDirector.addEventListener('click', verNombramientoDirector);
     btnEstatutoFundacion.addEventListener('click', verEstatutoFundacion)
@@ -72,6 +76,13 @@ function ocultarEstadosFinancieros() {
 }
 function verEstadosFinancieros() {
     $('#estadosFinancieros').toggle();
+}
+//---------------------------------------------------------------PLAN ESTRATEGICO
+function ocultarPlanEstrategico() {
+    $('#PlanEstrategico').hide();
+}
+function verPlanEstrategico() {
+    $('#PlanEstrategico').toggle();
 }
 //..............................................................notas.Estados financieros...............................................
 

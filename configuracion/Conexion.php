@@ -1,8 +1,8 @@
 <?php
 $hostname = "localhost";
 $user = "root";
-$password = "";
-$bdname = "FUNDESOTEC";
+$password = "fundesotec2025";
+$bdname = "FUNDESOTEC"; 
 // Conexión
 $conn = new mysqli($hostname, $user, $password, $bdname);
 // Verificar la conexión

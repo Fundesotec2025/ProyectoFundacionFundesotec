@@ -23,7 +23,8 @@
     <div class="container-fluid NoticiasInicio">
         <div class="row">
             <div class="col-12 col-md-12">
-                <h2 class="text-center">«Transformamos mentalidades, emprendiendo nuevos retos <br> para cambiar vidas.»
+                <h2 class="text-center">«Transformamos mentalidades, emprendiendo nuevos retos <br> para cambiar
+                    vidas.»
                 </h2>
             </div>
         </div>
@@ -33,17 +34,22 @@
         <div class="row justify-content-center">
             <div class="col-12 col-md-6 mb-4 contenedorParrafo">
                 <h3 class="tituloNoticias">RECONOCIMIENTO NACIONAL</h3>
-                <p class="parrafoNoticias">Pofirio Jiménez, Presidente de la fundación Desarrollo Social y tecnológico
+                <p class="parrafoNoticias">Pofirio Jiménez, Presidente de la fundación Desarrollo Social y
+                    tecnológico
                     <span class="fw-bold">FUNDESOTEC</span>, fue reconocido como héroe nacional por Nestlé debido a su
                     destacad labor social durante
                     la pandemia de COVID 19. Bajo su liderazgo Fundesotec, brindo asistencia a mas de 3.000 personas en
-                    Ecuador, proporcionando alimentos, medicamentos y apoyo económico a comunidades vulnerables. Nestlé
-                    homenajeo a Porfirio Jiménez y a otros héroes de la pandemia en su Campaña “ Juntos creamos la magia
-                    de la navidad”, reconociendo sus acciones solidarios que inspiraron durante la emergencia sanitaria.
+                    Ecuador, proporcionando alimentos, medicamentos y apoyo económico a comunidades vulnerables.
+                    Nestlé
+                    homenajeo a Porfirio Jiménez y a otros héroes de la pandemia en su Campaña “ Juntos creamos la
+                    magia
+                    de la navidad”, reconociendo sus acciones solidarios que inspiraron durante la emergencia
+                    sanitaria.
                 </p>
             </div>
             <div class="col-12 col-md-6 mb-4">
-                <img src="Img/Noticias/HeroeNacional.png" alt="Reconocimiento Nacional Fundesotec">
+                <img src="Img/Noticias/HeroeNacional.webp" loading="eager" fetchpriority="high"
+                    alt="Reconocimiento Nacional Fundesotec">
             </div>
         </div>
         <div class="row justify-content-center">
@@ -51,13 +57,16 @@
                 <h3 class="tituloNoticias">INAUGURACIÓN PROYECTO SANARTE</h3>
                 <p class="parrafoNoticias">El 11 de septiembre del 2021, Fundesotec inauguro el Centro de Especialistas
                     medicas SANARTE. Este centro ofrece servicios en diversas especialidades medicas incluyendo medicina
-                    familiar, pediatría, obstetricia, otorrinolaringólogo y traumatología. Ademas cuenta con laboratorio
-                    clínico y microbiológico. El objetivo principal es proporcionar atención medica económica y enfocada
+                    familiar, pediatría, obstetricia, otorrinolaringólogo y traumatología. Ademas cuenta con
+                    laboratorio
+                    clínico y microbiológico. El objetivo principal es proporcionar atención medica económica y
+                    enfocada
                     en la prevención para grupos vulnerables.
                 </p>
             </div>
             <div class="col-12 col-md-6 mb-4">
-                <img src="Img/Noticias/FundacionSanarte.png" alt="Reconocimiento Nacional Fundesotec">
+                <img src="Img/Noticias/FundacionSanarte.webp" loading="eager" fetchpriority="high"
+                    alt="Reconocimiento Nacional Fundesotec">
 
             </div>
         </div>
@@ -65,16 +74,29 @@
             <div class="col-12 col-md-6 mb-4 contenedorParrafo">
                 <h3 class="tituloNoticias">Reportaje especial sobre nuestra Tienda Solidaria en Te Veo Ecuador</h3>
                 <p class="parrafoNoticias">Nuestra Tienda-Comedor Solidario fue destacada en el programa Te Veo Ecuador,
-                    donde se presentó un reportaje sobre el impacto de nuestro trabajo en la comunidad. A través de este
+                    donde se presentó un reportaje sobre el impacto de nuestro trabajo en la comunidad. A través de
+                    este
                     proyecto, brindamos atención con productos de la canasta básica, subvencionados en un 25% del PVP,
                     permitiendo que más familias accedan a alimentos esenciales a precios accesibles.
                 </p>
             </div>
             <div class="col-12 col-md-6 mb-4 ContenedorVideo">
-                <iframe width="640" height="360" src="https://www.youtube.com/embed/feN1JiuKleo" frameborder="0"
-                    allow="autoplay; encrypted-media" allowfullscreen>
-                </iframe>
+                <div class="video-container" data-video-url="https://www.youtube.com/embed/feN1JiuKleo?autoplay=1">
+                    <img src="https://img.youtube.com/vi/feN1JiuKleo/hqdefault.jpg" alt="Ver video de YouTube"
+                        style="cursor: pointer; width: 100%; max-width: 640px; height: auto;">
+                </div>
             </div>
+
+            <script>
+                document.querySelectorAll('.video-container').forEach(container => {
+                    container.addEventListener('click', function () {
+                        const videoUrl = this.getAttribute('data-video-url');
+                        this.innerHTML = `<iframe width="640" height="360" src="${videoUrl}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>`;
+                    });
+                });
+            </script>
+
+
         </div>
         <h2 class="text-center fw-bold">"Nuestra fundación en la portada de <span class="recid">R<span
                     class="recid1">E</span>CID</span>: Un reconocimiento a nuestro trabajo"</h2><br>

@@ -1,5 +1,13 @@
 <?php
-// Definir una página predeterminada si no se pasa ningún parámetro
+
+
+/**
+ * Archivo: index.php
+ * Descripción: Archivo principal del sitio web que carga dinámicamente las páginas de contenido.
+ * Autor: [Luis Pilaguano]
+ * Fecha: [24-01-2025]
+ */
+
 $page = isset($_GET['page']) ? $_GET['page'] : 'Vista/Inicio.html';  // Asegúrate de poner la ruta completa de la página
 ?>
 

@@ -1,4 +1,20 @@
 <!-- footer.php -->
+<style>
+    .container-fluid.contRS {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        background-color: #222;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+    }
+</style>
 <link rel="stylesheet" href="EstilosCss/Index.css">
 
 <section>
@@ -44,7 +60,7 @@
         <div class="row">
             <div class="col-md-3 contDatos">
                 <h4 class="datosContactos">DIRECCIÓN</h4><br>
-                <p class="informacion"><i class="bi bi-geo-alt"></i>Juan  Lavalle N9 - 461
+                <p class="informacion"><i class="bi bi-geo-alt"></i>Juan Lavalle N9 - 461
                     y Nicolás Aguilera</p>
                 <h4 class="datosContactos">CORREO</h4><br>
                 <p class="informacion"> <i class="bi bi-envelope"></i> fundesotec@outlook.com</p>

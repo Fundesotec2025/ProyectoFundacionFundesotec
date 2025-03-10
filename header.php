@@ -19,12 +19,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <!-- -------------------- -->
     <!-- script correo -->
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
 
-    <script type="text/javascript">
-        emailjs.init('a8kALHJN1zzwKpep0')
-    </script>
     <!-- Estilos personalizados -->
     <link rel="stylesheet" href="EstilosCss/Index.css">
 </head>
